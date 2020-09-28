@@ -1,0 +1,16 @@
+{
+"companyName": "MotionMiracles",
+"productName": "Beach Balls! 3D",
+"productVersion": "0.1",
+"dataUrl": "BeachBall.data.unityweb",
+"wasmCodeUrl": "BeachBall.wasm.code.unityweb",
+"wasmFrameworkUrl": "BeachBall.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.13f1"
+}
