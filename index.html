@@ -3,21 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | NCEASL Virtual Museum</title>
-  </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/museum.loader.js"></script>
+    <title>Unity WebGL Player | Skatey Perry</title>
+    <script src="Build/UnityLoader.js"></script>
     <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/museum.data",
-        frameworkUrl: "Build/museum.framework.js",
-        codeUrl: "Build/museum.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "NCEASL Virtual Museum",
-        productVersion: "0.1",
-      });
+      UnityLoader.instantiate("unityContainer", "Build/Skatey_Perry_Build.json");
     </script>
+  </head>
+  <body>
+    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
   </body>
 </html>
